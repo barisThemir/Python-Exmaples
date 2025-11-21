@@ -17,10 +17,10 @@ while gc < ch:
 
     if guess == num:
         if gc == 1:
-            print(f'Sen Fenasın hile mi yaptın yoksa Bu sayıya nasıl tek attın {num}') # Düzeltildi
+            print(f'Sen Fenasın hile mi yaptın yoksa Bu sayıya nasıl tek attın {num}') 
         elif gc > 1:
-            print(f'Tebrikler!!! Doğru Sayı {num}. {gc}. tahminde bildin') # Düzeltildi
-        break # Doğru tahmin edildiğinde döngüden çıkmak için 'break' eklenmeli
+            print(f'Tebrikler!!! Doğru Sayı {num}. {gc}. tahminde bildin') 
+        break 
         
     elif gc >= ch and guess != num:
         print(f'HAHA, Yanlış tahmin dostum sayımız {num}. Belki birdahaki sefere!')
@@ -28,6 +28,3 @@ while gc < ch:
         print('Yükseklerdesin canım, biraz asagilardan uc')
     elif guess < num:
         print('Dostum biraz büyük dusun :D')
-
-    # 'else: print('bitti kank')' satırı gereksizdir ve kaldırılabilir.
-    # Tahmin hakkı bittiğinde zaten üstteki 'elif gc >= ch' bloğu çalışacaktır.
