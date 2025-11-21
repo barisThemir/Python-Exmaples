@@ -4,7 +4,7 @@ I collect the exercises, algorithms, and sample projects I've done while learnin
 📂 Contents
 Current projects:
 
-NumberGuessingGame: A simple console game where the user tries to guess a random number between the lower and upper limits they set.
+*NumberGuessingGame: A simple console game where the user tries to guess a random number between the lower and upper limits they set.
 
 (I will add to this list as I create new examples.)
 
